@@ -1,0 +1,13 @@
+﻿@model IEnumerable< Counting.Domain.Entities.Camera>
+
+<div class="container">
+
+    <ul class="list-unstyled video-list-thumbs row">
+        @foreach (var p in Model)
+        {
+            @Html.Partial("CameraCount" , p)
+        }
+
+    </ul>
+</div>
+

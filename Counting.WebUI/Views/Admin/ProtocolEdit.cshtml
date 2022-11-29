@@ -1,0 +1,74 @@
+﻿@model Counting.Domain.Entities.Protocol
+<div class="panel">
+    @if (Model.ProtocolID == 0)
+    {
+        <div class="panel-heading">
+
+            <h3>New Protocol</h3>
+
+        </div>
+
+        using (Html.BeginForm("ProtocolEdit", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            <div class="panel-body">
+                <div class="form-group">
+
+                    @Html.HiddenFor(m => m.ProtocolID)
+                    @*@Html.ValidationSummary()*@
+                    <div class="form-group">
+                        <label>Name :</label>
+                        @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label>Description:</label>
+                        @Html.TextAreaFor(m => m.Description, new { @class = "form-control" })
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="panel-footer">
+                <input type="submit" value="Save" class="btn btn-primary" />
+                @Html.ActionLink("Cancel", "ProtocolIndex", null, new { @class = "btn btn-default" })
+
+            </div>
+        }
+    }
+    else
+    {
+        <div class="panel-heading">
+
+            <h3>Edit Location @Model.Name</h3>
+
+        </div>
+
+        using (Html.BeginForm("ProtocolEdit", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            <div class="panel-body">
+                <div class="form-group">
+
+                    @Html.HiddenFor(m => m.ProtocolID)
+                    @*@Html.ValidationSummary()*@
+                    <div class="form-group">
+                        <label>Name :</label>
+                        @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label>Description:</label>
+                        @Html.TextAreaFor(m => m.Description, new { @class = "form-control" })
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="panel-footer">
+                <input type="submit" value="Save" class="btn btn-primary" />
+                @Html.ActionLink("Cancel", "ProtocolIndex", null, new { @class = "btn btn-default" })
+
+            </div>
+        }
+
+    }
+
+
+</div>

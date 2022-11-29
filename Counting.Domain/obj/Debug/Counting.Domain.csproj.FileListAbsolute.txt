@@ -1,0 +1,11 @@
+G:\projects\Counting\Counting.Domain\bin\Debug\Counting.Domain.dll.config
+G:\projects\Counting\Counting.Domain\bin\Debug\Counting.Domain.dll
+G:\projects\Counting\Counting.Domain\bin\Debug\Counting.Domain.pdb
+G:\projects\Counting\Counting.Domain\bin\Debug\EntityFramework.dll
+G:\projects\Counting\Counting.Domain\bin\Debug\EntityFramework.SqlServer.dll
+G:\projects\Counting\Counting.Domain\bin\Debug\EntityFramework.xml
+G:\projects\Counting\Counting.Domain\bin\Debug\EntityFramework.SqlServer.xml
+G:\projects\Counting\Counting.Domain\obj\Debug\Counting.Domain.csproj.CoreCompileInputs.cache
+G:\projects\Counting\Counting.Domain\obj\Debug\Counting.Domain.csproj.CopyComplete
+G:\projects\Counting\Counting.Domain\obj\Debug\Counting.Domain.dll
+G:\projects\Counting\Counting.Domain\obj\Debug\Counting.Domain.pdb

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.2017
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Counting.Domain", "Counting.Domain\Counting.Domain.csproj", "{2604067A-F870-44DE-AEF1-DD434626C3B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Counting.WebUI", "Counting.WebUI\Counting.WebUI.csproj", "{E94A5A76-ECC4-47F9-8FCA-A02CB03095E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2604067A-F870-44DE-AEF1-DD434626C3B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2604067A-F870-44DE-AEF1-DD434626C3B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2604067A-F870-44DE-AEF1-DD434626C3B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2604067A-F870-44DE-AEF1-DD434626C3B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E94A5A76-ECC4-47F9-8FCA-A02CB03095E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E94A5A76-ECC4-47F9-8FCA-A02CB03095E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E94A5A76-ECC4-47F9-8FCA-A02CB03095E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E94A5A76-ECC4-47F9-8FCA-A02CB03095E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {286BCD81-33C6-4DB7-A4B3-3FFDA760DB71}
+	EndGlobalSection
+EndGlobal
